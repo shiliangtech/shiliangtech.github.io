@@ -127,10 +127,14 @@ a:hover,
   width: 165px;
   color: #fff;
   text-indent: -9999px;
+  /*background: url('../images/logo.png?1444011587') no-repeat left center;
+  -webkit-background-size: 125px 40px;*/
+  /*background-size: 125px 40px;*/
+  /*margin-right: 20px;*/
   background: url('../images/logo.png?1444011587') no-repeat left center;
-  -webkit-background-size: 125px 40px;
-  background-size: 125px 40px;
-  margin-right: 20px;
+  -webkit-background-size: 165px 40px;
+  background-size: 165px 40px;
+  margin-right: 0px;
 }
 
 .m-about li {
