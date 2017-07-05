@@ -1034,7 +1034,7 @@ figure.effect-lily:hover p {
 }
 .m-footer section h2 {
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .m-footer i {
   margin-left: 10px;
@@ -1042,7 +1042,7 @@ figure.effect-lily:hover p {
 
 .m-footer-container,
 .m-footer-flink {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .m-footer-subnav a,
