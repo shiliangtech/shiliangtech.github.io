@@ -1,13 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>404页面5秒返回首页</title>
+</head>
+<body>
+    <p>将在 <span id="mes">5</span> 秒钟后返回到首页！</p>
+    <script>
+    var i = 5;
+    var timer;
+    timer = setInterval("fun()", 1000);
 
-
-
-
-
-
-
-
-这里是404页面。
-请后退
-
+    function fun() {
+        if (i == 0) {
+            window.location.href = "http://www.baidu.com";
+            clearInterval(timer);
+        }
+        document.getElementById("mes").innerHTML = i;
+        i--;
+    }
+    </script>
+</body>
+</html>
 
 
