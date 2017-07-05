@@ -633,7 +633,7 @@ figure.effect-lily:hover p {
 /* 联系我们 */
 .m-contact {
   background: url('../images/home-bg.jpg?1443942382') 50% 0 no-repeat fixed;
-  padding: 10px 0 15px 0;
+  padding: 0px 0 5px 0;
   color: #fff;
 }
 .m-contact p {
