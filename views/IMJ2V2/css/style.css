@@ -344,10 +344,10 @@ a:hover,
 }
 
 .m-home-box {
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 .m-home-box h2 {
-  margin: 40px 0 0 0;
+  margin: 10px 0 0 0;
 }
 .m-home-box p {
   margin: 0 0 20px 0;
@@ -633,7 +633,7 @@ figure.effect-lily:hover p {
 /* 联系我们 */
 .m-contact {
   background: url('../images/home-bg.jpg?1443942382') 50% 0 no-repeat fixed;
-  padding: 30px 0 50px 0;
+  padding: 10px 0 15px 0;
   color: #fff;
 }
 .m-contact p {
@@ -641,7 +641,7 @@ figure.effect-lily:hover p {
 }
 
 .m-contact-us {
-  padding: 40px 0;
+  padding: 10px 0;
 }
 .m-contact-us span {
   padding-top: 10px;
@@ -1017,7 +1017,7 @@ figure.effect-lily:hover p {
 /* 网站底部 */
 .m-footer {
   background: #1a1f2a;
-  padding: 60px 0 0 0;
+  padding: 20px 0 0 0;
   color: #555d6d;
   font-size: 14px;
 }
@@ -1042,7 +1042,7 @@ figure.effect-lily:hover p {
 
 .m-footer-container,
 .m-footer-flink {
-  padding-bottom: 60px;
+  padding-bottom: 10px;
 }
 
 .m-footer-subnav a,
