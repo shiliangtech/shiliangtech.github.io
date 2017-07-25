@@ -328,7 +328,7 @@ a:hover,
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
   .m-logo {
-    background: url('../images/logo@2x.png?1444011698');
+/*     background: url('../images/logo@2x.png?1444011698'); */
     -webkit-background-size: 125px 40px;
     background-size: 125px 40px;
     background-repeat: no-repeat;
