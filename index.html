@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="./commonstyle.css">
+	<script type="text/javascript" src="./jquery-1.12.4.min.js"></script>
+</head>
+<body>
+	<!--公共底部-->
+	<div class="footer">
+		<div class="footerinner">
+			<ul class="share">
+				<li>
+					<img class="xcx_icon" src="./share1.png" alt="">
+				</li>
+				<!-- 
+				<li>
+					<img class="qq_icon" src="./share2.png" alt="">
+				</li>
+				<li>
+					<img class="twitter_icon" src="./share3.png" alt="">
+				</li> -->
+				<li>
+					<img class="wechat_icon" src="./share4.png" alt="">
+				</li>
+			</ul>
+			<div class="code_wrap" style="z-index: 50;">
+				<ul class="code">
+					<li><img class="xcx" src="./xcx1.png" alt=""></li>
+					<li><img class="qq" src="./qq1.png" alt=""></li>
+					<li><img class="twitter" src="./twitter1.png" alt=""></li>
+					<li><img class="wechat" src="./wechat1.png" alt="" style="display: none;"></li>
+				</ul>
+			</div>
+			<div class="footerinfo">
+				<div class="footerinfoTop">
+					<p>Tel:&nbsp;+86&nbsp;18608989950&nbsp;;&nbsp;+86(0512)&nbsp;8166 0966  </p>
+					
+					<p>苏州金鸡湖大道1355号苏州国际科技园三期8层</p>
+					<p>Email：&nbsp;dev@shiliang.tech</p>
+					<p>邮编：&nbsp;215000</p>
+				</div>
+				<div class="footerinfoBottom">
+					<p>海南省三亚市吉阳大道273号云港信息园6号楼1楼113号</p>
+					<p>jobs@shiliang.tech</p>
+					<p>海南矢量科技有限公司</p>
+					<p class="min">Hainan&nbsp;shiliang&nbsp;tech&nbsp;Co.,&nbsp;Ltd.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+	/*底部二维码*/
+
+	$(".xcx_icon").hover(function(){
+		$(".xcx").fadeIn(500);
+		$(".qq,.twitter,.wechat").fadeOut(0);
+		$(".code_wrap").css("z-index",200);
+	},function(){
+		$(".xcx").fadeOut(0);
+		$(".code_wrap").css("z-index",50);
+	});
+
+	$(".qq_icon").hover(function(){
+		$(".qq").fadeIn(500);
+		$(".xcx,.twitter,.wechat").fadeOut(0);
+		$(".code_wrap").css("z-index",200);
+	},function(){
+		$(".qq").fadeOut(0);
+		$(".code_wrap").css("z-index",50);
+	});
+	$(".twitter_icon").hover(function(){
+		$(".twitter").fadeIn(500);
+		$(".xcx,.qq,.wechat").fadeOut(0);
+		$(".code_wrap").css("z-index",200);
+	},function(){
+		$(".twitter").fadeOut(0);
+		$(".code_wrap").css("z-index",50);
+	});
+	$(".wechat_icon").hover(function(){
+		$(".wechat").fadeIn(500);
+		$(".xcx,.qq,.twitter").fadeOut(0);
+		$(".code_wrap").css("z-index",200);
+	},function(){
+		$(".wechat").fadeOut(0);
+		$(".code_wrap").css("z-index",50);
+	});
+	$(".xcx,.twitter,.wechat").hover(function(){
+		$(this).fadeIn(0);
+		$(".code_wrap").css("z-index",200);
+	},function(){
+		$(this).fadeOut(500);
+		$(".code_wrap").css("z-index",50);
+	});
+
+	</script>
+
+</body></html>
