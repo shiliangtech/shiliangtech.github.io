@@ -22,15 +22,15 @@ img{
 	border:none;
 }
 body{
-	/*width: 100%;*/
-	/*min-width: 1200px;*/
+	width: 100%;
+	min-width: 1200px;
 	font-family: "微软雅黑";
 	background: #141b21;
 }
 
 /*公共底部样式*/
 .footer{
-	/*width:100% ;*/
+	width:100% ;
 	background: #141b21;
 	box-sizing: border-box;
 	padding:50px 20px 60px 20px;
