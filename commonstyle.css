@@ -30,7 +30,7 @@ body{
 /*公共底部样式*/
 .footer{
 	width:100% ;
-	background: #333;
+	background: #141b21;
 	box-sizing: border-box;
 	padding:50px 20px 60px 20px;
 	margin-top: 300px;
@@ -104,7 +104,7 @@ body{
 	font-family: 思源宋体 CN Heavy；
 	font-size: 16px;
 	text-align: center;
-	color: #fff000;
+	color: #009ecc;
 	opacity: 0.8;
 	filter:alpha(opacity=80);
 }
